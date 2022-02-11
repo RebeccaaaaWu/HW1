@@ -1,13 +1,15 @@
 # HW1
-Lab 1 is about how to use the Natural Language Toolkit (NLTK) module to perform basic text analysis. 
-
-NLTK is a Python add-on package which has multiple useful functions for analyzing text files. One key component of text analysis is finding keyword frequency distributions.
-
-A frequency distribution can be shown as a table containing how many times within a document different words appear. 
-To directly quote the NLTK book, “it’s called a "distribution" because it tells us how the total number of word tokens in the text are distributed across the vocabulary items. Since we often need frequency distributions in language processing, 
-NLTK provides built-in support for them” (http://www.nltk.org/book/ch01.html). 
-
-Lab1 contains contents below:
-1. String Manipulation 
-2. tokenization 
-3. stop words removal
+Analyze and draw insight and conclusions from the dataset
+births.xlsx provided to you. The data was collected and published by New York City. It is limited to NY
+city. The dataset is real but may not be complete as we do not know if all births are registered.
+births.xlsx Description: Baby Names by Sex and Ethnic Group: Data was collected through civil birth
+registration. Each row (record) shows the summary for a specific name given to newborn babies. The
+same name may be given to several babies in a year, across the years, and ethnic groups.
+• Example:
+Birth year gender ethnicity First name frequency
+2011 female hispanic geraldine 13
+• The above record shows that the name “geraldine” was given to 13 newborn female babies of
+Hispanic ethnicity in 2011. Ethnicity is derived from mother’s ethnicity.
+• The same name may have been given to babies of a different ethnicity or in a different year.
+• All the text data in the columns is converted to lower case. That is why you see geraldine, instead of
+Geraldine.
